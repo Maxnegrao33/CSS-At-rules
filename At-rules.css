@@ -1,0 +1,30 @@
+/*#At-rules
+* Está relacionado ao comportamento do CSS
+* Inicia com o Sinal de "@"  seguido de identificação e valor
+
+*/
+
+/*São Exemplos comuns
+
+* @import - incluir um CSS externo
+* @media - regras coondicionais para dispositivos
+* @font-face - Fontes Externas
+* keyframes - Animation
+*/
+
+@import "http://local.com/style.css;"
+
+/*Media está ligado à responsividade*/
+@media (min-width: 500px) {
+    /*rules here*/
+}
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url();
+}
+
+@keyframes nameofanimation {
+    /*rules here*/
+}
+
